@@ -51,16 +51,16 @@ export default function Home() {
               Frontend Developer
             </h3>
             <p className="text-med py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto  dark:text-white">
-              I'm a passionate Frontend Developer with expertise in React.js.
-              During my journey in the tech world, I honed my skills and gained
-              valuable experience during a rewarding 4-month internship at
-              Hometown WebSolutions. My mission is to create intuitive,
-              user-friendly web experiences that leave a lasting impression. I
-              thrive on turning creative ideas into beautifully crafted digital
-              solutions. Explore my portfolio to see some of my recent projects
-              and get in touch if you're interested in collaborating or
-              discussing your next exciting project! Let's build the web
-              together 🚀.
+              I&apos;m a passionate Frontend Developer with expertise in
+              React.js. During my journey in the tech world, I honed my skills
+              and gained valuable experience during a rewarding 4-month
+              internship at Hometown WebSolutions. My mission is to create
+              intuitive, user-friendly web experiences that leave a lasting
+              impression. I thrive on turning creative ideas into beautifully
+              crafted digital solutions. Explore my portfolio to see some of my
+              recent projects and get in touch if you&apos;re interested in
+              collaborating or discussing your next exciting project! Let&apos;s
+              build the web together 🚀.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10 justify-center">
             <div className=" grid justify-center text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="codeimg" />
               {/* <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Design
               </h3> */}
@@ -106,7 +106,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">ReactJS</p>
             </div>
             <div className=" grid justify-center text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="designimg" />
               <h3 className="text-lg font-medium pt-8  py-4 text-teal-600 p-5">
                 Frameworks & Tools
               </h3>
@@ -123,11 +123,11 @@ export default function Home() {
               Projects
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800  dark:text-white md:text-lg font-medium">
-              "I'm a web developer with expertise in HTML, CSS, and JavaScript.
-              I create responsive, user-friendly web applications with a focus
-              on clean design. Passionate about problem-solving and committed to
-              staying updated on industry trends. Ready to contribute to dynamic
-              projects and collaborative teams."
+              &quot;I&apos;m a web developer with expertise in HTML, CSS, and
+              JavaScript. I create responsive, user-friendly web applications
+              with a focus on clean design. Passionate about problem-solving and
+              committed to staying updated on industry trends. Ready to
+              contribute to dynamic projects and collaborative teams.&quot;
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -138,6 +138,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
+                alt="Projectimg"
               />
               <div className="flex justify-center gap-10">
                 <a href="https://makbyte.io/" target="main">
@@ -162,6 +163,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
+                alt="Projectimg"
               />
               <div className="flex justify-center gap-10">
                 <a href="https://dycricketacademy.netlify.app/" target="main">
